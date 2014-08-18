@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmPackage", "DemoDynamicsCRM\CrmPackage\CrmPackage.csproj", "{E9C94332-51DE-4107-A535-39E5AB1BF224}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2A3C704C-CA64-4DE1-8550-BDA446CBB644} = {2A3C704C-CA64-4DE1-8550-BDA446CBB644}
+		{287CBEBB-C5DD-4B76-8312-723907397DE4} = {287CBEBB-C5DD-4B76-8312-723907397DE4}
+		{AAF98CF4-0CEC-498F-9585-03611BA17054} = {AAF98CF4-0CEC-498F-9585-03611BA17054}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugins", "DemoDynamicsCRM\Plugins\Plugins.csproj", "{AAF98CF4-0CEC-498F-9585-03611BA17054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow", "DemoDynamicsCRM\Workflow\Workflow.csproj", "{2A3C704C-CA64-4DE1-8550-BDA446CBB644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplication", "DemoDynamicsCRM\SilverlightApplication\SilverlightApplication.csproj", "{287CBEBB-C5DD-4B76-8312-723907397DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplication.Web", "DemoDynamicsCRM\SilverlightApplication.Web\SilverlightApplication.Web.csproj", "{24AA10F5-BD2C-45A1-ACC5-D38B4CA39184}"
+EndProject
+Global
+	GlobalSection(CRMSolutionProperties) = preSolution
+		SolutionIsBoundToCRM = True
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9C94332-51DE-4107-A535-39E5AB1BF224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C94332-51DE-4107-A535-39E5AB1BF224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C94332-51DE-4107-A535-39E5AB1BF224}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E9C94332-51DE-4107-A535-39E5AB1BF224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C94332-51DE-4107-A535-39E5AB1BF224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C94332-51DE-4107-A535-39E5AB1BF224}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AAF98CF4-0CEC-498F-9585-03611BA17054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF98CF4-0CEC-498F-9585-03611BA17054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF98CF4-0CEC-498F-9585-03611BA17054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF98CF4-0CEC-498F-9585-03611BA17054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A3C704C-CA64-4DE1-8550-BDA446CBB644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3C704C-CA64-4DE1-8550-BDA446CBB644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3C704C-CA64-4DE1-8550-BDA446CBB644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3C704C-CA64-4DE1-8550-BDA446CBB644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287CBEBB-C5DD-4B76-8312-723907397DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287CBEBB-C5DD-4B76-8312-723907397DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287CBEBB-C5DD-4B76-8312-723907397DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287CBEBB-C5DD-4B76-8312-723907397DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24AA10F5-BD2C-45A1-ACC5-D38B4CA39184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AA10F5-BD2C-45A1-ACC5-D38B4CA39184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AA10F5-BD2C-45A1-ACC5-D38B4CA39184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AA10F5-BD2C-45A1-ACC5-D38B4CA39184}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
