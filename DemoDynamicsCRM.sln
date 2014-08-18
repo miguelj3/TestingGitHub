@@ -18,6 +18,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplication", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplication.Web", "DemoDynamicsCRM\SilverlightApplication.Web\SilverlightApplication.Web.csproj", "{24AA10F5-BD2C-45A1-ACC5-D38B4CA39184}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{59623921-804A-4FA2-B1A6-0B437744F032}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Descritivo_MapeamentoIntegracoesCRM_Produtos_v1 0.docx = ..\..\..\..\Desktop\Descritivo_MapeamentoIntegracoesCRM_Produtos_v1 0.docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(CRMSolutionProperties) = preSolution
 		SolutionIsBoundToCRM = True
